@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen</title>
+  </head>
+  <body>
+<main>
+  <section class="streaming-section" aria-labelledby="streaming-title">
+    <header class="section-header">
+      <div>
+        <p class="eyebrow">Featured collection</p>
+        <h1 id="streaming-title">Now Streaming</h1>
+      </div>
+
+      <a href="#all-movies">View all movies</a>
+    </header>
+
+    <div class="slider">
+      <div class="slider-track">
+        <!-- Primary movie row -->
+        <ul class="movie-row" aria-label="Featured movies">
+          <li>
+            <a href="#dune-part-two">
+              <img
+                src="https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg"
+                alt="Dune: Part Two movie poster"
+                width="500"
+                height="750"
+              >
+
+              <span class="movie-info">
+                <strong>Dune: Part Two</strong>
+                <small>Science Fiction · 2024</small>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#the-batman">
+              <img
+                src="https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg"
+                alt="The Batman movie poster"
+                width="500"
+                height="750"
+              >
+
+              <span class="movie-info">
+                <strong>The Batman</strong>
+                <small>Crime · 2022</small>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#spider-verse">
+              <img
+                src="https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg"
+                alt="Spider-Man: Across the Spider-Verse movie poster"
+                width="500"
+                height="750"
+              >
+
+              <span class="movie-info">
+                <strong>Across the Spider-Verse</strong>
+                <small>Animation · 2023</small>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#oppenheimer">
+              <img
+                src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+                alt="Oppenheimer movie poster"
+                width="500"
+                height="750"
+              >
+
+              <span class="movie-info">
+                <strong>Oppenheimer</strong>
+                <small>Drama · 2023</small>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#barbie">
+              <img
+                src="https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg"
+                alt="Barbie movie poster"
+                width="500"
+                height="750"
+              >
+
+              <span class="movie-info">
+                <strong>Barbie</strong>
+                <small>Comedy · 2023</small>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#avatar">
+              <img
+                src="https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg"
+                alt="Avatar: The Way of Water movie poster"
+                width="500"
+                height="750"
+              >
+
+              <span class="movie-info">
+                <strong>Avatar: The Way of Water</strong>
+                <small>Adventure · 2022</small>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#top-gun">
+              <img
+                src="https://image.tmdb.org/t/p/w500/62HCnUTziyWcpDaBO2i1DX17ljH.jpg"
+                alt="Top Gun: Maverick movie poster"
+                width="500"
+                height="750"
+              >
+
+              <span class="movie-info">
+                <strong>Top Gun: Maverick</strong>
+                <small>Action · 2022</small>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#guardians">
+              <img
+                src="https://image.tmdb.org/t/p/w500/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg"
+                alt="Guardians of the Galaxy Vol. 3 movie poster"
+                width="500"
+                height="750"
+              >
+
+              <span class="movie-info">
+                <strong>Guardians of the Galaxy Vol. 3</strong>
+                <small>Action · 2023</small>
+              </span>
+            </a>
+          </li>
+        </ul>
+
+        <!--
+          Duplicate row keeps the animation seamless.
+          It is hidden from screen readers to avoid repeated content.
+        -->
+        <ul class="movie-row" aria-hidden="true">
+          <li>
+            <a href="#dune-part-two-copy" tabindex="-1">
+              <img
+                src="https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg"
+                alt=""
+                width="500"
+                height="750"
+              >
+
+              <span class="movie-info">
+                <strong>Dune: Part Two</strong>
+                <small>Science Fiction · 2024</small>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#the-batman-copy" tabindex="-1">
+              <img
+                src="https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg"
+                alt=""
+                width="500"
+                height="750"
+              >
+
+              <span class="movie-info">
+                <strong>The Batman</strong>
+                <small>Crime · 2022</small>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#spider-verse-copy" tabindex="-1">
+              <img
+                src="https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg"
+                alt=""
+                width="500"
+                height="750"
+              >
+
+              <span class="movie-info">
+                <strong>Across the Spider-Verse</strong>
+                <small>Animation · 2023</small>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#oppenheimer-copy" tabindex="-1">
+              <img
+                src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+                alt=""
+                width="500"
+                height="750"
+              >
+
+              <span class="movie-info">
+                <strong>Oppenheimer</strong>
+                <small>Drama · 2023</small>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#barbie-copy" tabindex="-1">
+              <img
+                src="https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg"
+                alt=""
+                width="500"
+                height="750"
+              >
+
+              <span class="movie-info">
+                <strong>Barbie</strong>
+                <small>Comedy · 2023</small>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#avatar-copy" tabindex="-1">
+              <img
+                src="https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg"
+                alt=""
+                width="500"
+                height="750"
+              >
+
+              <span class="movie-info">
+                <strong>Avatar: The Way of Water</strong>
+                <small>Adventure · 2022</small>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#top-gun-copy" tabindex="-1">
+              <img
+                src="https://image.tmdb.org/t/p/w500/62HCnUTziyWcpDaBO2i1DX17ljH.jpg"
+                alt=""
+                width="500"
+                height="750"
+              >
+
+              <span class="movie-info">
+                <strong>Top Gun: Maverick</strong>
+                <small>Action · 2022</small>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#guardians-copy" tabindex="-1">
+              <img
+                src="https://image.tmdb.org/t/p/w500/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg"
+                alt=""
+                width="500"
+                height="750"
+              >
+
+              <span class="movie-info">
+                <strong>Guardians of the Galaxy Vol. 3</strong>
+                <small>Action · 2023</small>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+    <script src="./script.js"></script>
+  </body>
+</html>
